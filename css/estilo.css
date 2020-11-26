@@ -1,0 +1,42 @@
+h1{
+	color:#FF5733;
+}
+ tr:nth-child(even){
+            background-color: #c9c9c9;
+        }
+        tr:nth-child(odd){
+            background-color: #dcdcdc;
+        }
+        th {
+            background-color: darkred;
+        }
+        table, th, td {
+            border: 1px black solid;
+            border-collapse: collapse;
+        }
+        table {
+            width: 50%
+        }
+ .icon-bar {
+            width: 100%;
+            background-color: #555;
+            overflow: auto;
+        }
+
+        .icon-bar a {
+            float: left;
+            text-align: center;
+            width: 20%;
+            padding: 12px 0;
+            transition: all 0.3s ease;
+            color: white;
+            font-size: 36px;
+        }
+
+        .icon-bar a:hover {
+            background-color: #000;
+        }
+.active, .accordion:hover {
+            background-color: #ccc;
+        }
+
